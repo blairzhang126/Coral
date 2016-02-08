@@ -3,7 +3,7 @@
 I've download the raw RNA-seq data from ncbi as has mentioned in the paper. I simply used command "prefetch SRR..." (sratool version is 2.5.2). 
 
 There are three major parts in "SRP055723":
-  1. Experiment accession: SRX894201
+  1. Experiment accession: SRX894201\n
     SRA file: SRR1843797.sra
     Title: "Spawning experiment Gamete"
     Instrument: Illumina HiSeq 2000
@@ -20,7 +20,7 @@ There are three major parts in "SRP055723":
     Title: "Full moon new moon"
     Instrument: Illumina HiSeq 2000
     Read length: 100bp
- I also created excel file "coral_sra_data_info.xlsx", which is the excel version instead of picture version from the email.
+    I also created excel file "coral_sra_data_info.xlsx", which is the excel version instead of picture version from the email.
 
 # Fastq files
 I used fastq-dump with command "fastq-dump -O /export/work/blair/coral/data/ --split-files SRR...sra" (fastq-dump version is 2.5.2). The paired-end files are under /export/work/blair/coral/data/
