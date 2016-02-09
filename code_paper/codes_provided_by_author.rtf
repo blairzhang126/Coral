@@ -1,0 +1,81 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf340
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww17820\viewh13020\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+tophat2 -p 7 -g 1 -o t2A acropora t2A_d1huuacxx_TAGCTT_L003_R1.fastq\
+t2A_d1huuacxx_TAGCTT_L003_R2.fastq\
+tophat2 -p 7 -g 1 -o t2D acropora t2D_d1huuacxx_GGCTAC_L003_R1.fastq\
+t2D_d1huuacxx_GGCTAC_L003_R2.fastq\
+tophat2 -p 7 -g 1 -o t2L acropora t2L_d1huuacxx_CTTGTA_L003_R1.fastq\
+t2L_d1huuacxx_CTTGTA_L003_R2.fastq\
+tophat2 -p 7 -g 1 -o t3_A acropora t3_A_d1huuacxx_GATCAG_L003_R1.fastq\
+t3_A_d1huuacxx_GATCAG_L003_R2.fastq\
+tophat2 -p 7 -g 1 -o t4A acropora t4A_d1huuacxx_GTGGCC_L003_R1.fastq\
+t4A_d1huuacxx_GTGGCC_L003_R2.fastq\
+tophat2 -p 7 -g 1 -o 6_15_A acropora 6_15_A_d1huuacxx_CGATGT_L003_R1.fastq\
+6_15_A_d1huuacxx_CGATGT_L003_R2.fastq\
+tophat2 -p 7 -g 1 -o 6_15_D acropora 6_15_D_d1huuacxx_TTAGGC_L003_R1.fastq\
+6_15_D_d1huuacxx_TTAGGC_L003_R2.fastq\
+tophat2 -p 7 -g 1 -o 6_15_L acropora 6_15_L_d1huuacxx_TGACCA_L003_R1.fastq\
+6_15_L_d1huuacxx_TGACCA_L003_R2.fastq\
+tophat2 -p 7 -g 1 -o 7_30_A acropora 7_30_A_d1huuacxx_ACAGTG_L003_R1.fastq\
+7_30_A_d1huuacxx_ACAGTG_L003_R2.fastq\
+tophat2 -p 7 -g 1 -o 7_30_D acropora 7_30_D_d1huuacxx_GCCAAT_L003_R1.fastq\
+7_30_D_d1huuacxx_GCCAAT_L003_R2.fastq\
+tophat2 -p 7 -g 1 -o 7_30_L acropora 7_30_L_d1huuacxx_CAGATC_L003_R1.fastq\
+7_30_L_d1huuacxx_CAGATC_L003_R2.fastq\
+tophat2 -p 7 -g 1 -o t1_A acropora t1_A_d1huuacxx_ACTTGA_L003_R1.fastq\
+t1_A_d1huuacxx_ACTTGA_L003_R2.fastq\
+\
+samtools view -h -o 6_15_A/accepted_hits.sam 6_15_A/accepted_hits.bam\
+perl map_sam_reads_to_known_genes_rmdup.pl output.psl 6_15_A/accepted_hits.sam\
+all_reads_6_15_A_simple_rmdup.txt\
+rm 6_15_A/accepted_hits.sam\
+samtools view -h -o 6_15_D/accepted_hits.sam 6_15_D/accepted_hits.bam\
+perl map_sam_reads_to_known_genes_rmdup.pl output.psl 6_15_D/accepted_hits.sam\
+all_reads_6_15_D_simple_rmdup.txt\
+rm 6_15_D/accepted_hits.sam\
+samtools view -h -o 6_15_L/accepted_hits.sam 6_15_L/accepted_hits.bam\
+perl map_sam_reads_to_known_genes_rmdup.pl output.psl 6_15_L/accepted_hits.sam\
+all_reads_6_15_L_simple_rmdup.txt\
+rm 6_15_L/accepted_hits.sam\
+samtools view -h -o 7_30_A/accepted_hits.sam 7_30_A/accepted_hits.bam\
+perl map_sam_reads_to_known_genes_rmdup.pl output.psl 7_30_A/accepted_hits.sam\
+all_reads_7_30_A_simple_rmdup.txt\
+rm 7_30_A/accepted_hits.sam\
+samtools view -h -o 7_30_D/accepted_hits.sam 7_30_D/accepted_hits.bam\
+perl map_sam_reads_to_known_genes_rmdup.pl output.psl 7_30_D/accepted_hits.sam\
+all_reads_7_30_D_simple_rmdup.txt\
+rm 7_30_D/accepted_hits.sam\
+samtools view -h -o t2A/accepted_hits.sam t2A/accepted_hits.bam\
+perl map_sam_reads_to_known_genes_rmdup.pl output.psl t2A/accepted_hits.sam\
+all_reads_t2A_simple_rmdup.txt\
+rm t2A/accepted_hits.sam\
+samtools view -h -o t2D/accepted_hits.sam t2D/accepted_hits.bam\
+perl map_sam_reads_to_known_genes_rmdup.pl output.psl t2D/accepted_hits.sam\
+all_reads_t2D_simple_rmdup.txt\
+rm t2D/accepted_hits.sam\
+samtools view -h -o t2L/accepted_hits.sam t2L/accepted_hits.bam\
+perl map_sam_reads_to_known_genes_rmdup.pl output.psl t2L/accepted_hits.sam\
+all_reads_t2L_simple_rmdup.txt\
+rm t2L/accepted_hits.sam\
+samtools view -h -o t3_A/accepted_hits.sam t3_A/accepted_hits.bam\
+perl map_sam_reads_to_known_genes_rmdup.pl output.psl t3_A/accepted_hits.sam\
+all_reads_t3_A_simple_rmdup.txt\
+rm t3_A/accepted_hits.sam\
+samtools view -h -o t4A/accepted_hits.sam t4A/accepted_hits.bam\
+perl map_sam_reads_to_known_genes_rmdup.pl output.psl t4A/accepted_hits.sam\
+all_reads_t4A_simple_rmdup.txt\
+rm t4A/accepted_hits.sam\
+samtools view -h -o 7_30_L/accepted_hits.sam 7_30_L/accepted_hits.bam\
+perl map_sam_reads_to_known_genes_rmdup.pl output.psl 7_30_L/accepted_hits.sam\
+all_reads_7_30_L_simple_rmdup.txt\
+rm 7_30_L/accepted_hits.sam\
+samtools view -h -o t1_A/accepted_hits.sam t1_A/accepted_hits.bam\
+perl map_sam_reads_to_known_genes_rmdup.pl output.psl t1_A/accepted_hits.sam\
+all_reads_t1_A_simple_rmdup.txt\
+rm t1_A/accepted_hits.sam}

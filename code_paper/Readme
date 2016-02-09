@@ -1,0 +1,6 @@
+#code that provided by the author
+Under this directory, all the scripts have gained from the author.
+map.pl is the perl scripts to handle results of Tophat, which can generate text files of number of reads per gene.
+output.psl is the result that BLAT was utilized to align the genes against the genome
+codes_provided_by_author contains command to run Tophat and samtools etc.
+The excel file contains sra information.
