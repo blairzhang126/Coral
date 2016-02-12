@@ -1,0 +1,25 @@
+#these parameters are provided by the author, I just re-run all of our files
+#The result path on apollo: /export/work/blair/coral/Tophat/
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1843797 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1843797_1.fastq /export/work/blair/coral/data/SRR1843797_2.fastq 1>SRR1843797.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853176 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853176_1.fastq /export/work/blair/coral/data/SRR1853176_2.fastq 1>SRR1853176.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853185 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853185_1.fastq /export/work/blair/coral/data/SRR1853185_2.fastq 1>SRR1853185.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853188 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853188_1.fastq /export/work/blair/coral/data/SRR1853188_2.fastq 1>SRR1853188.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853192 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853192_1.fastq /export/work/blair/coral/data/SRR1853192_2.fastq 1>SRR1853192.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853195 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853195_1.fastq /export/work/blair/coral/data/SRR1853195_2.fastq 1>SRR1853195.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853198 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853198_1.fastq /export/work/blair/coral/data/SRR1853198_2.fastq 1>SRR1853198.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853201 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853201_1.fastq /export/work/blair/coral/data/SRR1853201_2.fastq 1>SRR1853201.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853204 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853204_1.fastq /export/work/blair/coral/data/SRR1853204_2.fastq 1>SRR1853204.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853208 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853208_1.fastq /export/work/blair/coral/data/SRR1853208_2.fastq 1>SRR1853208.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853209 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853209_1.fastq /export/work/blair/coral/data/SRR1853209_2.fastq 1>SRR1853209.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853210 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853210_1.fastq /export/work/blair/coral/data/SRR1853210_2.fastq 1>SRR1853210.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853211 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853211_1.fastq /export/work/blair/coral/data/SRR1853211_2.fastq 1>SRR1853211.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853246 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853246_1.fastq /export/work/blair/coral/data/SRR1853246_2.fastq 1>SRR1853246.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853247 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853247_1.fastq /export/work/blair/coral/data/SRR1853247_2.fastq 1>SRR1853247.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853248 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853248_1.fastq /export/work/blair/coral/data/SRR1853248_2.fastq 1>SRR1853248.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853249 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853249_1.fastq /export/work/blair/coral/data/SRR1853249_2.fastq 1>SRR1853249.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853250 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853250_1.fastq /export/work/blair/coral/data/SRR1853250_2.fastq 1>SRR1853250.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853251 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853251_1.fastq /export/work/blair/coral/data/SRR1853251_2.fastq 1>SRR1853251.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853252 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853252_1.fastq /export/work/blair/coral/data/SRR1853252_2.fastq 1>SRR1853252.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853253 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853253_1.fastq /export/work/blair/coral/data/SRR1853253_2.fastq 1>SRR1853253.log 2>&1 &
+tophat2 -p 7 -g 1 -o /export/work/blair/coral/Tophat/SRR1853254 /export/work/blair/coral/refs/acropora /export/work/blair/coral/data/SRR1853254_1.fastq /export/work/blair/coral/data/SRR1853254_2.fastq 1>SRR1853254.log 2>&1 &
+
